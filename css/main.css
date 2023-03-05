@@ -4,16 +4,17 @@
     box-sizing: border-box;
 }
 
-body{
-    width: 100%;
-    max-width: 144rem;
-}
-
 html {
     font-size: 62.5%;
     line-height: 2.2rem;
     font-family: 'Mulish', sans-serif;
 }
+/* 
+.grid {
+    max-width: 120rem;
+    max-width: 100%;
+    margin: 0 auto;
+} */
 
 .header {
 height: 88px;
@@ -72,12 +73,17 @@ padding: 0 16.5rem;
 }
 
 /* //1// */
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
 .container-text {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(./img/bg.png);
-    background-repeat :no-repeat;
+    background: url(./img/bg.png) center /cover no-repeat ;
     height: 56rem;
     width: 100%;
     background-color: rgba(60, 100, 177, 0.08);
